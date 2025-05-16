@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Watch C++",
+            "type": "shell",
+            "command": "echo main.cpp | entr -r bash -c 'g++ -o main main.cpp && ./main'",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
