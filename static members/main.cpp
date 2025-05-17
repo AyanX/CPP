@@ -5,7 +5,6 @@ using namespace std;
 class Fun{
     public:
     static int price;
-
     static int getPrice();
 };
 
