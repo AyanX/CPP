@@ -20,5 +20,10 @@ class Test{
 
 int main(){
     Test t(5);
+
+    Test *p= new Test(10);
+    p=nullptr;
+    delete p;
+    cout<<"p deleted"<<endl;
     return 0;
 }
